@@ -11,7 +11,7 @@
   }
   
   .main-heading {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     line-height: 1.65;
   }
@@ -20,6 +20,12 @@
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.2;
+  }
+
+  .sub-sub-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
   }
   
   .text {
@@ -46,12 +52,15 @@
     justify-content: center;
   }
   
-  .flex-container-space-between-algn-centeer {
+  .flex-container-algn-centeer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
+  .margin-auto {
+    margin: auto;
+  }
   .margin-top {
     margin: 30px 0 0 0;
   }
@@ -66,10 +75,6 @@
   @media screen and (min-width: 992px) {
     :root {
       font-size: 16px;
-    }
-
-    .main-heading {
-        font-size: 3rem;
     }
     .btn {
         padding: 25px 41px;

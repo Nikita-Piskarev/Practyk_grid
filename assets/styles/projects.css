@@ -1,0 +1,23 @@
+.projects {
+    padding: 100px 10px;
+    background-color: var(--accent-color);
+    color: var(--btn-text-color);
+}
+
+.projects__content {
+    margin: 0 0 0 26px;
+}
+
+.projects__content-paragraph{
+    color: var(--btn-text-color);
+}
+
+.projects__pading-top{
+    padding: 20px 0 0 0;
+}
+
+@media screen and (min-width: 992px) {
+    .projects__pading-top{
+        padding: 0;
+    }
+}
