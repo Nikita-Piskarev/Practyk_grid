@@ -1,0 +1,75 @@
+.my-skills {
+    padding: 102px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.my-skills__img {
+    max-width: 100%;
+    min-width: 280px;
+}
+
+.my-skills-position {
+    text-align: left;
+    position: relative;
+}
+
+.my-skills-position::after,
+.my-skills-position::before {
+    content: "";
+    position: absolute;
+    height: 4px;
+    top: 36px;
+    left: 0;
+}
+
+.my-skills-position::after {
+    min-width: 200px;
+    background-color: var(--accent-color);
+
+}
+
+.my-skills-position::before {
+    min-width: 270px;
+    background-color: var(--text-color);
+}
+
+.my-skills-margin-top {
+    margin: 50px 0 0 0;
+}
+
+@media screen and (min-width: 576px) {
+    .my-skills-position::after {
+        min-width: 350px;
+
+
+    }
+
+    .my-skills-position::before {
+        min-width: 445px;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .my-skills-position {
+        text-align: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .my-skills {
+        text-align: inherit;
+    }
+
+    .text-center {
+        text-align: inherit;
+    }
+
+    .my-skills-margin-top {
+        margin: 0;
+    }
+}
