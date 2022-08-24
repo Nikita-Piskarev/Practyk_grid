@@ -1,0 +1,38 @@
+.design {
+    background-color: var(--light-gray-bg-color);
+    padding: 50px 10px;
+}
+
+.design__img {
+    margin: auto;
+    min-width: 280px;
+    max-width: 357px;
+    width: 100%;
+}
+.design__section-design {
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+.design__section-design-title {
+
+}
+
+.design__section-design-paragraph {
+    margin: 60px 0 0 0 ;
+}
+
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+    
+    .design__section-design {
+        text-align: inherit;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .design__section-design {
+        
+    }
+}
