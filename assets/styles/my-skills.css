@@ -6,7 +6,6 @@
     text-align: center;
 }
 
-
 .my-skills__img {
     max-width: 100%;
     min-width: 280px;
@@ -44,13 +43,10 @@
 @media screen and (min-width: 576px) {
     .my-skills-position::after {
         min-width: 350px;
-
-
     }
 
     .my-skills-position::before {
         min-width: 445px;
-
     }
 }
 
