@@ -1,0 +1,21 @@
+.work-photo {
+    padding: 0 10px;
+}
+
+.work-photo-pading-0 {
+    padding: 0;
+}
+
+.work-photo-display-none {
+    display: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .work-photo-display-none {
+        display: block;
+    }
+
+    .work-photo {
+        padding: 0;
+    }
+}

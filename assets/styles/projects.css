@@ -4,6 +4,10 @@
     color: var(--btn-text-color);
 }
 
+.projects-img-max-width {
+    max-width: 50px;
+}
+
 .projects__content {
     margin: 0 0 0 26px;
 }

@@ -5,36 +5,36 @@
     --btn-text-color: #ffffff;
     --light-gray-bg-color: #EEEFF1;
     --progress-bg-color: #C4C4C4;
-  
+
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-  }
-  
-  .main-heading {
+}
+
+.main-heading {
     font-size: 3rem;
     font-weight: 500;
     line-height: 1.65;
-  }
-  
-  .sub-heading {
+}
+
+.sub-heading {
     font-size: 2rem;
     font-weight: 500;
     line-height: 1.2;
-  }
+}
 
-  .sub-sub-heading {
+.sub-sub-heading {
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1;
-  }
-  
-  .text {
+}
+
+.text {
     color: var(--text-color);
     font-size: 1rem;
     line-height: 1.65;
-  }
-  
-  .btn {
+}
+
+.btn {
     font-size: 1rem;
     line-height: 1.65;
     letter-spacing: 10%;
@@ -42,46 +42,49 @@
     color: var(--btn-text-color);
     background-color: var(--accent-color);
     border: inherit;
-  }
-  
-  .img {
+}
+
+.img {
     display: block;
-    /* width: 100%; */
-  }
-  
-  .justify-center {
+    width: 100%;
+}
+
+.justify-center {
     justify-content: center;
-  }
-  
-  .flex-container-algn-centeer {
+}
+
+.flex-container-algn-centeer {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .margin-auto {
+.margin-auto {
     margin: auto;
-  }
-  .margin-top {
+}
+
+.margin-top {
     margin: 30px 0 0 0;
-  }
-  
-  @media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 576px) {
     :root {
-      font-size: 15px;
+        font-size: 15px;
     }
-    
-  }
-  
-  @media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 992px) {
     :root {
-      font-size: 16px;
+        font-size: 16px;
     }
+
     .btn {
         padding: 25px 41px;
-      }
-      .margin-top {
+    }
+
+    .margin-top {
         margin: 50px 0 0 0;
-      }
-    
-  }
+    }
+
+}
