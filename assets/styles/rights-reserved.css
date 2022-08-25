@@ -1,0 +1,18 @@
+.rights-reserved {
+    padding: 50px 10px;
+    background-color: var(--accent-color);
+}
+
+.rights-reserved-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rights-reserved-white-color {
+    color: var(--btn-text-color);
+}
+
+.rights-reserved-margin-top {
+    margin: 20px 0 0 0;
+}
