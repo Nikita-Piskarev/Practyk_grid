@@ -5,6 +5,7 @@
     --btn-text-color: #ffffff;
     --light-gray-bg-color: #EEEFF1;
     --progress-bg-color: #C4C4C4;
+    --text-color-input: #5F5D5D;
 
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -34,6 +35,12 @@
     line-height: 1.65;
 }
 
+.text-input {
+    color: var(--text-color-input);
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
 .btn {
     font-size: 1rem;
     line-height: 1.65;
@@ -60,7 +67,7 @@
 }
 
 .margin-auto {
-    margin: auto;
+    margin: 0 auto;
 }
 
 .margin-top {

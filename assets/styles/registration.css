@@ -1,0 +1,35 @@
+.registration {
+    padding: 100px 10px;
+    background-color: var(--light-gray-bg-color);
+}
+.registration-width {
+    max-width: 540px;
+}
+.input-width {
+    width: 100%;
+    padding: 1.3rem;
+    border: none;
+}
+
+.registration-texi-aling-center {
+    text-align: center;
+}
+
+.registration-flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration-input-width-46 {
+    width:46%;
+}
+
+.registration-input-message {
+    min-height: 175px;
+    margin: 20px 0 0 0;
+    vertical-align: top;
+}
+
+.registration-margin-top-20 {
+    margin: 20px 0 0 0;
+}
