@@ -1,0 +1,8 @@
+.work-me {
+    padding: 100px 10px;
+    background-color: var(--light-gray-bg-color);
+}
+
+.work-me-text-aling-center {
+    text-align: center;
+}
